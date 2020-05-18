@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnsubmit" type="id" />
+    <item name="txtsample" type="id" />
+    <item name="editemail" type="id" />
+    <item name="password" type="id" />
+</resources>
