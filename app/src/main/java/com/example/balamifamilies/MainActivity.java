@@ -18,12 +18,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        gotologin=findViewById(R.id.gotologin);
-        imagefront=findViewById(R.id.imagefront);
+        gotologin = findViewById(R.id.gotologin);
+        imagefront = findViewById(R.id.imagefront);
         gotologin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent= new Intent(MainActivity.this, FrontActivitity.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FrontActivitity.class);
+                startActivity(intent);
             }
         });
     }
