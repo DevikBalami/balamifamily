@@ -20,7 +20,7 @@ public class FrontActivitity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_front_activitity);
         txtsample=findViewById(R.id.txtsample);
         btnsubmit=findViewById(R.id.btnsubmit);
         editemail=findViewById(R.id.editemail);
